@@ -19,7 +19,7 @@
     <main>
       <!-- ************************************************ カールセル開始 -->
       <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> -->
-        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <!-- <div class="carousel-inner"> -->
           <div class="carousel-inner">
             <!-- <div class="carousel-item active"> -->
@@ -64,9 +64,57 @@
                   </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
       </div>
       <!-- ************************************************ カールセル終了 -->
+       <div class="container">
+        <style>
+          .button-test {
+           /* パディング(余白)上下方向10px 左右方向30px */
+           padding: 10px 30px;
+           /* ボタンの幅 300px */
+           width: 300px;
+           /* 背景色 青 */
+           background-color: blue;
+           /* フォント色 白 */
+           color: white;
+           /* テキスト中央揃え */
+           text-align: center;
+           /* フォントを太く */
+           font-weight: bold;
+           /* ボタンの角を丸める */
+           border-radius: 5px;
+           /* 上下左右方向の余白外側30px */
+           margin: 30px;
+           /* ボタンの影 */
+           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 30%);
+          }
+        </style>
+        <!-- buttonテスト -->
+         <button>ここを押す</button>
+         <div class="button-test">ここを押す</div>
+         <a href="">ここを押す</a>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- <div class="container marketing"> -->
       <div class="">
         <!-- <div class="row"> -->
